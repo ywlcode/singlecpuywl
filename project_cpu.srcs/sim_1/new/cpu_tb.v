@@ -64,6 +64,7 @@ initial begin
     wea = 1'b1;
     
     // 注意前边的用的LUI是高16位为0，低位赋16位立即数，最后才是真正的LUI指令
+    // 若调试前边指令需到control模块修改157和158行
     /*
     //测试 指令RAM，ALU和regfile的正常工作 ADDU LUI AND
     #10;
