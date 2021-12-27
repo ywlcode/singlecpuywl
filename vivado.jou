@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Nov 03 22:31:23 2021
+# Process ID: 5404
+# Current directory: D:/project/project_cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1876 D:\project\project_cpu\project_cpu.xpr
+# Log file: D:/project/project_cpu/vivado.log
+# Journal file: D:/project/project_cpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/project/project_cpu/project_cpu.xpr
+update_compile_order -fileset sources_1

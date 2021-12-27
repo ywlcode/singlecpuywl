@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon Dec 27 16:20:59 2021">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="dab551def07943948cec25446e223537" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="26" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="CopyIPHandler" value="1" type="JavaHandler"/>
+<property name="CoreView" value="7" type="JavaHandler"/>
+<property name="CustomizeCore" value="5" type="JavaHandler"/>
+<property name="EditDelete" value="7" type="JavaHandler"/>
+<property name="NewProject" value="4" type="JavaHandler"/>
+<property name="OpenProject" value="15" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="12" type="JavaHandler"/>
+<property name="RecustomizeCore" value="9" type="JavaHandler"/>
+<property name="ReportIPStatus" value="1" type="JavaHandler"/>
+<property name="ResetLayout" value="2" type="JavaHandler"/>
+<property name="ShowSource" value="1" type="JavaHandler"/>
+<property name="ShowView" value="5" type="JavaHandler"/>
+<property name="SimulationClose" value="98" type="JavaHandler"/>
+<property name="SimulationRun" value="217" type="JavaHandler"/>
+<property name="ToolsTemplates" value="1" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="1" type="JavaHandler"/>
+<property name="WaveformSaveConfiguration" value="15" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, cpu (cpu.v" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, D:/project/project_cpu/project_cpu.xpr, 0" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="141" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="133" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

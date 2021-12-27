@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv"
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv"
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv"
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv"
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv"
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv"
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv"
+verilog blk_mem_gen_v8_3_3  "../../../project_cpu.ip_user_files/ipstatic/blk_mem_gen_v8_3_3/simulation/blk_mem_gen_v8_3.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/ip/ram_code/sim/ram_code.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/ip/data_ram/sim/data_ram.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/new/regester_file.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/new/pc_new_old.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/new/pcadd.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/new/pc.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/new/kkk.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/new/jump.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/new/dataram_do.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/new/control.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/new/chchch.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/new/begin.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/new/ALU.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sources_1/new/cpu.v"
+verilog xil_defaultlib  "../../../project_cpu.srcs/sim_1/new/cpu_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

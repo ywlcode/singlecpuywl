@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Nov 01 11:04:56 2021
+# Process ID: 14256
+# Current directory: D:/project/project_cpu/project_cpu.runs/ram_code_synth_1
+# Command line: vivado.exe -log ram_code.vds -mode batch -messageDb vivado.pb -notrace -source ram_code.tcl
+# Log file: D:/project/project_cpu/project_cpu.runs/ram_code_synth_1/ram_code.vds
+# Journal file: D:/project/project_cpu/project_cpu.runs/ram_code_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ram_code.tcl -notrace
